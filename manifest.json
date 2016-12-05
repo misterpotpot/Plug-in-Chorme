@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Zapking",
+	"description": "Version alpha de Zapking - Phase de tests & learning construction de plug-in + UI",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Zapking - version alpha"
+	},
+
+	"permissions": [
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	],
+
+	"icons": {
+		"128": "icon.png"
+	},
+
+	"background": {
+		"scripts": ["main.js"]
+	}
+}
